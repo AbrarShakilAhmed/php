@@ -7,10 +7,10 @@
 </head>
 <body>
   <form action="index.php" method="post">
-    <label for="username" >Username</label>
+    <label for="username" >Safe input</label>
     <input type="text" name="name" required>
     <br>
-    <label for="pass">Password</label>
+    <label for="pass">Bugs input</label>
     <input type="password" name="pass" id="" required>
     <br>
     <button type="submit">Submit</button>
