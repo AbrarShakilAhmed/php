@@ -8,13 +8,18 @@
 <body>
   <form action="index.php" method="post">
     <label for="username" >Username</label>
-    <input type="text" name="name">
+    <input type="text" name="name" required>
+    <br>
+    <label for="pass">Password</label>
+    <input type="password" name="pass" id="" required>
+    <br>
     <button type="submit">Submit</button>
   </form>
 </body>
 </html>
 <?php
 $name = filter_input(INPUT_POST,"name",FILTER_SANITIZE_SPECIAL_CHARS);
-echo $name;
+echo $name . "<br>";
+echo $_POST["pass"]
 
 ?>
