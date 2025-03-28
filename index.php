@@ -6,6 +6,8 @@
   <title>Php</title>
 </head>
 <body>
-  
+  <div>
+    <?php echo strlen("working") ?>
+  </div>
 </body>
 </html>
