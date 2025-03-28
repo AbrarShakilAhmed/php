@@ -3,3 +3,42 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  background-color: #e0e0e0;
+}
+form {
+  background-color: rgb(78, 136, 138);
+  color: #fff;
+  width: 340px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  padding: 14% 10%;
+  margin-top: 40px;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.274);
+  border-radius: 10px;
+}
+h1 {
+  align-self: center;
+  margin-bottom: 20px;
+}
+
+input {
+  margin: 10px;
+  outline: none;
+  padding: 2px;
+}
+
+input[type='submit'] {
+  background-color: rgb(63, 108, 126);
+  width: fit-content;
+  align-self: center;
+  margin-top: 20px;
+  color: #fff;
+  padding: 5px 20px;
+  border: none;
+  border-radius: 2px;
+  &:hover {
+    background-color: rgb(41, 63, 71);
+  }
+}
