@@ -3,9 +3,7 @@
   $email = $_POST["email"];
   $pass =$_POST["pass"];
 
-$nameSvd = 'Abrar Shakil';
-$emailSvd = "skshakilppki123@gmail.com";
-$passSvd = "hacker202";
+
 $hashed_password = '$6$rounds=1000000$NJy4rIPjpOaU$0ACEYGg/aKCY3v8O8AfyiO7CTfZQ8/W231Qfh2tRLmfdvFD6XfHk12u6hMr9cYIA4hnpjLNSTRtUwYr9km9Ij/';
 
 
