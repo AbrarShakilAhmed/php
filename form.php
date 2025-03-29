@@ -2,7 +2,6 @@
   $name =$_POST["name"];
   $email = $_POST["email"];
   $pass =$_POST["pass"];
-
   ?>
 <!DOCTYPE html>
 <html lang="en">
