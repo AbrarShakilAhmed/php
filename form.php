@@ -14,8 +14,6 @@ $crtPassHash ='$6$rounds=1000000$NJy4rIPjpOaU$0dqjdufHu/zIBTXvgoWRcQceYzWmPBFErc
 $crtEmailHash ='$6$rounds=1000000$NJy4rIPjpOaU$fDAFH4KR7W.AhDoh8WjlvUzYgPMU30YvCLR67N9ga5AEodPbWCHsr9HAiR0KxOlEygL09A5UYXBQSe3sBVAoR0';
 
 
-
-
 if(hash_equals($crtNameHash,crypt($name,$hashed_password))){
   if(hash_equals($crtEmailHash,crypt($email,$hashed_password))){
     if(hash_equals($crtPassHash,crypt($pass,$hashed_password))){
@@ -29,7 +27,12 @@ if(hash_equals($crtNameHash,crypt($name,$hashed_password))){
 }else{
   echo "name is wrong <script>alert('name is not matched')</script>";
 }
+
   ?>
+
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
